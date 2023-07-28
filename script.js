@@ -70,11 +70,33 @@ let names = ['james', 'leonard', 'paul', "joe"];
 // };
 
 
+
 //Method 8: map 
 // use to return a new array from an array
-let nums = [1, 2, 3, 4, 5, 6];
+// let nums = [1, 2, 3, 4, 5, 6];
 
-let double = nums.map((n) => n*2);
-console.log(double);
+// let double = nums.map((n) => n*2);
+// console.log(double);
 
 //Method 9: filter
+// looping throw the array of post and getting all the posts owned by Dan
+// let post = [
+//     {title: 'post 1', author: 'Dan'},
+//     {title: 'post 2', author: 'Dan'},
+//     {title: 'post 3', author: 'Sarah'},  
+// ];
+
+// let danspost = post.filter((p) => p.author === 'Dan');
+// console.log(danspost);
+
+
+
+//Method 9:reduce
+// use to reduce an array to a single value
+// let nums = [1, 2, 3, 4, 5, 6];
+ //initialy the current value is 1 and currentvalue is 2 for the first iteration and we can as well specify the starting number for our iteration in the array
+//   let total = nums.reduce((total, currentValue)=> total + currentValue);
+//   console.log(total);
+
+
+//Method 10: 
