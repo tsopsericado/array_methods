@@ -17,10 +17,11 @@ let names = ['james', 'leonard', 'paul', "joe"];
 
 
 //Method 3: concat
- let joined = names.concat(names2, names3);
- console.log(joined);
+//  let joined = names.concat(names2, names3);
+//  console.log(joined);
 
 
 //Method 4:splice
 // 1st 1 represent the index in the array from where you whiwh to start deleting and the 2nd 1 represents the index of the object in the array you want to delete
-names.splice(1, 1);
+names.splice(1, 2);
+console.log(names)
