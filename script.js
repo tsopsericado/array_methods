@@ -99,4 +99,59 @@ let names = ['james', 'leonard', 'paul', "joe"];
 //   console.log(total);
 
 
-//Method 10: 
+// we can as wwell get the max num in an array using reducer
+
+// let total = nums = nums.reducer((a, b) => Math.max(a, b), -Infinity)
+// console.log(total);
+
+
+
+
+//Method 10: .some
+// this array method is to get if and element in the array passes the test
+// const nums = [1, 2, 3, 4, 5, 6];
+// let isGreaterThan5 = nums.some((n) => n > 5);
+//    console.log(isGreaterThan5);
+
+
+
+//Method 11: .every()
+// similar to the .some , it loops through the array check and return true or false
+//  const nums = [1, 2, 3, 4, 5, 6];
+
+//  let allGreaterThan0 = nums.every(n => n > 0);
+//  console.log(allGreaterThan0);
+
+//Method 12: find
+// use to find a value in an array that matches the test 
+//  let shop = [
+//    { item: "laptop", quantity: 32 },
+//    { item: "book", quantity: 100 },
+//    { item: "pen", quantity: 220 },
+//  ];
+
+//  let book = shop.find((s) => s.item === 'book');
+//  console.log(book.quantity);
+
+
+
+//Method 12: findIndex  
+// use to find the index in the array that matches the test 
+//  let shop = [
+//    { item: "laptop", quantity: 32 },
+//    { item: "book", quantity: 100 },
+//    { item: "pen", quantity: 220 },
+//  ];
+
+//  let book = shop.findIndex((s) => s.item === 'book');
+//  console.log(book);
+
+
+
+ //Method 13: sort
+//  use to arrange number in order of priority
+let lastname = [1, 5, 3, 8, 5];
+
+let julio = lastname.sort((a, b) => a - b);
+
+console.log(lastname)
