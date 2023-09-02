@@ -155,3 +155,27 @@ let lastname = [1, 5, 3, 8, 5];
 let julio = lastname.sort((a, b) => a - b);
 
 console.log(lastname)
+
+
+
+
+function diagonalDifference(arr) {
+    // Write your code here
+    let n = matrix.length;
+    let diag1 = 0;
+    let diag2 =0;
+    
+    for(let i=0; i<n; i++){
+        for(let j=0; j<n; j++){
+            
+            if (i === j) {
+                diag1 += matrix[i][j];
+            }
+            
+            if(i + j === n - 1){
+                diag2 += matrix[i][j];
+            } 
+        }
+    }
+    return Math.abs(diag1 - diag2)
+}
